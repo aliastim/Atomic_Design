@@ -1,0 +1,92 @@
+.titre-inscription
+{
+  color: $bleu;
+  font-family: montserrat-bold;
+  font-size: 24px;
+}
+
+.titre-parametres
+{
+  color: black;
+  font-family: montserrat-medium;
+  font-size: 20px;
+}
+
+.label-parametres
+{
+  font-family: montserrat;
+  font-size: 18px;
+}
+
+.paragraphe-accueil
+{
+  font-family: montserrat;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  top: 280px;
+
+  span {
+    font-family: montserrat-bold;
+    color: $bleu;
+  }
+}
+
+.titre-demande-daide
+{
+  font-family: montserrat;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.demandepriseencharge
+{
+  font-family: montserrat;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.arriveedans
+{
+  font-family: montserrat-bold;
+  font-size: 14px;
+  color: $bleu;
+  margin-bottom: 30px;
+}
+
+.minutes
+{
+  font-family: montserrat-bold;
+  font-size: 24px;
+  color: #13677A;
+  /*padding-top: 20px;*/
+}
+
+.ligneinteragir
+{
+  width: 400px;
+  margin-top: 40px;
+  border-color: $bleu;
+}
+
+.interagiraveclehelper
+{
+  margin-top: -31px;
+  text-align: center;
+  width: 180px;
+  p {
+    font-family: montserrat-bold;
+    color: $bleu;
+    font-size: 14px;
+    background: white;
+  }
+}
+
+.user-name
+{
+  font-family: montserrat;
+  font-size: 18px;
+  margin-top: 5px;
+}

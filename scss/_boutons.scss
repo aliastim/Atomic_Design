@@ -1,0 +1,177 @@
+%btn-plein
+{
+  background: $bleu;
+  border: none;
+  height: 30px;
+  font-family: montserrat-bold;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+  &:hover
+  {
+    background: white;
+    color: $bleu;
+  }
+}
+
+.bouton-plein-carre
+{
+  border-radius: 5px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 270px;
+  @extend %btn-plein;
+}
+
+.mr-mme
+{
+  border: 2px solid $bleu;
+  height: 35px;
+  width: 116px;
+  text-align: center;
+  font-family: montserrat-bold;
+  font-size: 13px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+%mrmme
+{
+  height: 100%;
+  width: 58px;
+  float: left;
+  p {
+    padding-bottom: 16px;
+  }
+}
+
+.mme
+{
+  background: $bleu;
+  @extend %mrmme;
+}
+
+
+.mr
+{
+  @extend %mrmme;
+}
+
+%boutonpleinrond
+{
+  border-radius: 15px ;
+  margin-bottom: 20px;
+}
+.bouton-plein-rond
+{
+  @extend %boutonpleinrond;
+  width: 136px;
+  margin-top: 70px;
+  @extend %btn-plein;
+}
+
+.bouton-plein-rond-2
+{
+  @extend %boutonpleinrond;
+  width: 270px;
+  margin-top: 20px;
+  @extend %btn-plein;
+}
+
+.bouton-creux
+{
+  @extend %boutonpleinrond;
+  width: 270px;
+  background: none;
+  border: 1px solid $bleu;
+  height: 30px;
+  font-family: montserrat;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.bouton-rond
+{
+  height: 139px;
+  width: 139px;
+  border-radius: 100%;
+  font-family: montserrat-bold;
+  font-size: 24px;
+  color: white;
+  border: none;
+  background: $bleu;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin-top: 120px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 2;
+
+  span {
+    font-size: 14px !important;
+  }
+
+  &:hover
+  {
+    background: white;
+    border: 2px solid $bleu;
+    color: $bleu;
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+}
+
+.svg-bouton-accueil
+{
+  position: absolute;
+  height: 180px;
+  z-index: 1;
+}
+
+.service-boutons
+{
+  width: 100%;
+  img {
+    padding-top: 10px;
+    height: 64px;
+  }
+}
+
+.service-bouton-container
+{
+  width: 125.33px;
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+.service-bouton
+{
+  text-align: center;
+  width: 105px;
+  background: #F0EEEE;
+  height: 85px;
+  border-radius: 20px 20px 0 0;
+  float: left;
+  position: relative;
+  cursor: pointer;
+
+}
+
+
+.service-bouton-footer
+{
+  position: absolute;
+  bottom: -47px;
+  width: 105px;
+  background: $bleu;
+  height: 47px;
+  border-radius: 0 0 20px 20px;
+  font-family: montserrat-bold;
+  color: white;
+  font-size: 14px;
+
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('../police/Montserrat-Bold.otf');
+}
+
+@font-face {
+  font-family: 'montserrat-medium';
+  src: url('../police/Montserrat-Medium.otf');
+}
+
+@font-face {
+  font-family: 'montserrat-light';
+  src: url('../police/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: 'montserrat-medium-italic';
+  src: url('../police/Montserrat-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../police/Montserrat-Regular.otf');
+}
+
+.montserrat
+{
+  font-family: montserrat !important;
+}

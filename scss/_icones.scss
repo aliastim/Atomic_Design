@@ -1,0 +1,47 @@
+.icone-timer
+{
+  height: 71px;
+  float: left;
+  margin-right: 10px;
+}
+
+.icones-interactions
+{
+  width: 360px;
+  height: 120px;
+  margin-top: 40px;
+}
+
+.cadre-icones-interactions
+{
+  width: 180px;
+  background: white;
+  height: 100%;
+  text-align: center;
+  float: left;
+  img {
+    height: 64px;
+  }
+
+  p{
+    font-family: montserrat-bold;
+    font-size: 14px;
+    color: $bleu;
+  }
+}
+
+.user-icone
+{
+  margin-top: 50px;
+  height: 100px;
+}
+
+.etoiles
+{
+  text-align: center;
+  margin-top: 50px;
+  svg {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

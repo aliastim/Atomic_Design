@@ -1,0 +1,25 @@
+%liens
+{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+
+  &:hover
+  {
+    color: $bleu;
+  }
+}
+
+.lien-mot-de-passe-oublie
+{
+  font-family: montserrat-medium-italic;
+  font-size: 13px;
+  @extend %liens;
+}
+
+.lien-creer-compte
+{
+  font-family: montserrat;
+  font-size: 11px;
+  @extend %liens;
+}

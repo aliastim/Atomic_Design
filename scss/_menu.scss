@@ -1,0 +1,51 @@
+.menu{
+  background: $menu;
+  border: 1px solid grey;
+  box-shadow: 0 6px 3px grey;
+  height: 896px;
+  width: 271px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-right: 50px;
+}
+
+.menu-croix
+{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 10px;
+  right: 10px;
+}
+
+.menu {
+  ul {
+    padding-left: 0px;
+    margin-top: 50px;
+
+    li {
+
+      list-style: none;
+      padding-top: 3px;
+
+      a {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        font-family: montserrat-light;
+        color: white;
+        text-decoration: none;
+
+        &:hover
+        {
+          color: $bleu;
+        }
+      }
+
+      hr {
+        width: 245px;
+        border-color: white;
+      }
+    }
+  }
+}

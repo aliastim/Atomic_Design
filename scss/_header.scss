@@ -1,0 +1,65 @@
+.header
+{
+  position: absolute;
+  top: 0;
+}
+
+.header-part-1
+{
+  background: white;
+  width: 414px;
+  height: 92px;
+}
+
+.header-part-2
+{
+  background: $bleu;
+  width: 414px;
+  height: 62px;
+
+  p {
+    font-family: montserrat-bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0 !important;
+    color: white;
+    padding-top: 17px;
+  }
+}
+
+.part-left
+{
+  height: 92px;
+  width: 90px;
+  float: left;
+  text-align: center;
+  svg {
+    padding-top: 30px;
+  }
+}
+
+.part-center
+{
+  height: 92px;
+  width: 234px;
+  float: left;
+  p {
+    font-family: montserrat-bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0 !important;
+    color: $bleu;
+    padding-top: 30px;
+  }
+}
+
+.part-right
+{
+  height: 92px;
+  width: 90px;
+  float: left;
+  text-align: center;
+  svg {
+    padding-top: 22px;
+  }
+}

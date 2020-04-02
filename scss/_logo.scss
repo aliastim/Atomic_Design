@@ -1,0 +1,29 @@
+%titre-accueil {
+  color: $bleu;
+}
+
+.logo-accueil
+{
+  width: 100%;
+  text-align: center;
+}
+
+.logo-accueil>h1
+{
+  @extend %titre-accueil;
+  font-size: 48px;
+  font-family: montserrat-bold;
+}
+
+.logo-accueil>img
+{
+  margin-top: -20px;
+  height: 116px;
+}
+
+.logo-accueil>h2
+{
+  @extend %titre-accueil;
+  font-size: 14px;
+  font-family: montserrat-medium;
+}

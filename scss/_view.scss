@@ -1,0 +1,82 @@
+body
+{
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.view{
+  background: white;
+  border: 1px solid grey;
+  box-shadow: 0 6px 3px grey;
+  height: 896px;
+  width: 414px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+%viewsection
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+  /*background: mediumpurple;*/
+}
+
+.view-section
+{
+  top: 120px;
+  height: calc(896px - 120px - 95px);
+  @extend %viewsection;
+}
+
+.view-section-2
+{
+  top: 155px;
+  height: calc(896px - 155px - 95px);
+  @extend %viewsection;
+}
+
+.view-section-3
+{
+  top: 155px;
+  height: calc(896px - 155px - 95px);
+  overflow: auto;
+  @extend %viewsection;
+}
+
+.w-100
+{
+  width: 100%;
+}
+
+.d-flex
+{
+  display: flex;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.justify-content-center
+{
+  display: flex;
+  justify-content: center;
+}
+
+.view-container
+{
+  width: 376px;
+}
+
+.div-accueil
+{
+  width: 188px;
+  float: left;
+  position: relative;
+}

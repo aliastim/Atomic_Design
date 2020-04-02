@@ -1,0 +1,648 @@
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url("../police/Montserrat-Bold.otf"); }
+@font-face {
+  font-family: 'montserrat-medium';
+  src: url("../police/Montserrat-Medium.otf"); }
+@font-face {
+  font-family: 'montserrat-light';
+  src: url("../police/Montserrat-Light.otf"); }
+@font-face {
+  font-family: 'montserrat-medium-italic';
+  src: url("../police/Montserrat-MediumItalic.otf"); }
+@font-face {
+  font-family: 'montserrat';
+  src: url("../police/Montserrat-Regular.otf"); }
+.montserrat {
+  font-family: montserrat !important; }
+
+body {
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center; }
+
+.view {
+  background: white;
+  border: 1px solid grey;
+  box-shadow: 0 6px 3px grey;
+  height: 896px;
+  width: 414px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative; }
+
+.view-section, .view-section-2, .view-section-3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /*background: mediumpurple;*/ }
+
+.view-section {
+  top: 120px;
+  height: calc(896px - 120px - 95px); }
+
+.view-section-2 {
+  top: 155px;
+  height: calc(896px - 155px - 95px); }
+
+.view-section-3 {
+  top: 155px;
+  height: calc(896px - 155px - 95px);
+  overflow: auto; }
+
+.w-100 {
+  width: 100%; }
+
+.d-flex {
+  display: flex; }
+
+.text-center {
+  text-align: center; }
+
+.justify-content-center {
+  display: flex;
+  justify-content: center; }
+
+.view-container {
+  width: 376px; }
+
+.div-accueil {
+  width: 188px;
+  float: left;
+  position: relative; }
+
+.header {
+  position: absolute;
+  top: 0; }
+
+.header-part-1 {
+  background: white;
+  width: 414px;
+  height: 92px; }
+
+.header-part-2 {
+  background: #5ECEE7;
+  width: 414px;
+  height: 62px; }
+  .header-part-2 p {
+    font-family: montserrat-bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0 !important;
+    color: white;
+    padding-top: 17px; }
+
+.part-left {
+  height: 92px;
+  width: 90px;
+  float: left;
+  text-align: center; }
+  .part-left svg {
+    padding-top: 30px; }
+
+.part-center {
+  height: 92px;
+  width: 234px;
+  float: left; }
+  .part-center p {
+    font-family: montserrat-bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0 !important;
+    color: #5ECEE7;
+    padding-top: 30px; }
+
+.part-right {
+  height: 92px;
+  width: 90px;
+  float: left;
+  text-align: center; }
+  .part-right svg {
+    padding-top: 22px; }
+
+.footer {
+  position: absolute;
+  bottom: -4px; }
+
+.footer-accueil {
+  position: absolute;
+  bottom: -90px; }
+  .footer-accueil svg {
+    width: 510px;
+    margin-left: -48px; }
+
+.menu {
+  background: #246877;
+  border: 1px solid grey;
+  box-shadow: 0 6px 3px grey;
+  height: 896px;
+  width: 271px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-right: 50px; }
+
+.menu-croix {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 10px;
+  right: 10px; }
+
+.menu ul {
+  padding-left: 0px;
+  margin-top: 50px; }
+  .menu ul li {
+    list-style: none;
+    padding-top: 3px; }
+    .menu ul li a {
+      font-size: 16px;
+      padding-left: 15px;
+      padding-bottom: 5px;
+      font-family: montserrat-light;
+      color: white;
+      text-decoration: none; }
+      .menu ul li a:hover {
+        color: #5ECEE7; }
+    .menu ul li hr {
+      width: 245px;
+      border-color: white; }
+
+.logo-accueil > h1, .logo-accueil > h2 {
+  color: #5ECEE7; }
+
+.logo-accueil {
+  width: 100%;
+  text-align: center; }
+
+.logo-accueil > h1 {
+  font-size: 48px;
+  font-family: montserrat-bold; }
+
+.logo-accueil > img {
+  margin-top: -20px;
+  height: 116px; }
+
+.logo-accueil > h2 {
+  font-size: 14px;
+  font-family: montserrat-medium; }
+
+.input-plein {
+  background: #5ECEE7;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 270px;
+  font-family: montserrat-bold;
+  font-size: 18px;
+  padding-left: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.input-creux {
+  background: none;
+  border: 1px solid #5ECEE7;
+  border-radius: 5px;
+  height: 30px;
+  width: 355px;
+  font-family: montserrat;
+  font-size: 18px;
+  padding-left: 5px;
+  margin-bottom: 10px; }
+
+.input-tchat {
+  background: white;
+  border: 2px solid #5ECEE7;
+  border-radius: 20px;
+  margin-top: -25px;
+  height: 48px;
+  width: 360px;
+  font-family: montserrat;
+  color: #C1C0C0;
+  font-size: 18px;
+  padding-left: 20px; }
+
+.textarea-votreavis {
+  width: 380px;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+  .textarea-votreavis p {
+    font-family: montserrat;
+    font-size: 18px; }
+  .textarea-votreavis textarea {
+    width: 360px;
+    height: 120px;
+    border: 1px solid #5ECEE7;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: montserrat;
+    color: #5ECEE7;
+    font-size: 18px;
+    resize: none; }
+
+.checkbox-label*, .checkbox-label *::before, .checkbox-label *::after {
+  box-sizing: content-box !important; }
+
+.checkbox-label input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0; }
+
+.checkbox-label span {
+  line-height: 1.25;
+  font-size: 1rem;
+  font-family: inherit; }
+
+.checkbox-label {
+  display: table;
+  position: relative;
+  font-family: montserrat-bold;
+  font-size: 18px;
+  padding-left: 30px;
+  cursor: pointer;
+  margin-bottom: 0px; }
+
+.checkbox-label input[type="checkbox"] ~ .checkbox-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #5ECEE7;
+  border-radius: 5px;
+  transition: background 250ms;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.checkbox-label input[type="checkbox"] ~ .checkbox-div::after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 10px;
+  top: 5px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transition: background 250ms;
+  transform: rotate(45deg); }
+
+.checkbox-label input:disabled ~ .checkbox-div::after {
+  border-color: #8795a1; }
+
+.checkbox-label input:checked ~ .checkbox-div::after {
+  display: block; }
+
+.checkbox-label:hover input ~ .checkbox-div,
+.checkbox-label input:focus ~ .checkbox-div {
+  background: #e7eef3; }
+
+.checkbox-label input:focus ~ .checkbox-div {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.checkbox-label input:checked ~ .checkbox-div {
+  background: #5ECEE7;
+  border-color: #5ECEE7; }
+
+.checkbox-label input[type="checkbox"]:disabled ~ .checkbox-div {
+  background: #f1f5f8;
+  border-color: #b8c2cc;
+  opacity: 0.6;
+  cursor: not-allowed; }
+
+.checkbox-label input:checked:focus ~ .checkbox-div, .checkbox-label:hover input:not([disabled]):checked ~ .checkbox-div {
+  background: #5ECEE7;
+  border-color: #5ECEE7; }
+
+.checkbox-label .checkbox-div::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3rem;
+  height: 3rem;
+  margin-left: -0.85rem;
+  margin-top: -0.85rem;
+  background: #5ECEE7;
+  border-radius: 2rem;
+  opacity: .6;
+  z-index: 99999;
+  transform: scale(0); }
+
+@keyframes b-ripple {
+  0% {
+    transform: scale(0); }
+  20% {
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1); } }
+@keyframes b-ripple-duplicate {
+  0% {
+    transform: scale(0); }
+  30% {
+    transform: scale(1); }
+  60% {
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1); } }
+.checkbox-label input + .checkbox-div::before {
+  animation: b-ripple 250ms ease-out; }
+
+.checkbox-label input:checked + .checkbox-div::before {
+  animation-name: b-ripple-duplicate; }
+
+.checkbox-label .checkbox-div::before {
+  visibility: hidden; }
+
+.checkbox-label input:focus + .checkbox-div::before {
+  visibility: visible; }
+
+.checkbox-label:first-child .checkbox-div::before {
+  visibility: hidden; }
+
+.conditions {
+  font-size: 13px;
+  font-family: montserrat;
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 30px; }
+
+.bouton-plein-carre, .bouton-plein-rond, .bouton-plein-rond-2 {
+  background: #5ECEE7;
+  border: none;
+  height: 30px;
+  font-family: montserrat-bold;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .bouton-plein-carre:hover, .bouton-plein-rond:hover, .bouton-plein-rond-2:hover {
+    background: white;
+    color: #5ECEE7; }
+
+.bouton-plein-carre {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 270px; }
+
+.mr-mme {
+  border: 2px solid #5ECEE7;
+  height: 35px;
+  width: 116px;
+  text-align: center;
+  font-family: montserrat-bold;
+  font-size: 13px;
+  margin-top: 20px;
+  cursor: pointer; }
+
+.mme, .mr {
+  height: 100%;
+  width: 58px;
+  float: left; }
+  .mme p, .mr p {
+    padding-bottom: 16px; }
+
+.mme {
+  background: #5ECEE7; }
+
+.bouton-plein-rond, .bouton-plein-rond-2, .bouton-creux {
+  border-radius: 15px;
+  margin-bottom: 20px; }
+
+.bouton-plein-rond {
+  width: 136px;
+  margin-top: 70px; }
+
+.bouton-plein-rond-2 {
+  width: 270px;
+  margin-top: 20px; }
+
+.bouton-creux {
+  width: 270px;
+  background: none;
+  border: 1px solid #5ECEE7;
+  height: 30px;
+  font-family: montserrat;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.bouton-rond {
+  height: 139px;
+  width: 139px;
+  border-radius: 100%;
+  font-family: montserrat-bold;
+  font-size: 24px;
+  color: white;
+  border: none;
+  background: #5ECEE7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 120px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 2; }
+  .bouton-rond span {
+    font-size: 14px !important; }
+  .bouton-rond:hover {
+    background: white;
+    border: 2px solid #5ECEE7;
+    color: #5ECEE7;
+    box-shadow: none;
+    cursor: pointer; }
+
+.svg-bouton-accueil {
+  position: absolute;
+  height: 180px;
+  z-index: 1; }
+
+.service-boutons {
+  width: 100%; }
+  .service-boutons img {
+    padding-top: 10px;
+    height: 64px; }
+
+.service-bouton-container {
+  width: 125.33px;
+  display: flex;
+  justify-content: center;
+  float: left; }
+
+.service-bouton {
+  text-align: center;
+  width: 105px;
+  background: #F0EEEE;
+  height: 85px;
+  border-radius: 20px 20px 0 0;
+  float: left;
+  position: relative;
+  cursor: pointer; }
+
+.service-bouton-footer {
+  position: absolute;
+  bottom: -47px;
+  width: 105px;
+  background: #5ECEE7;
+  height: 47px;
+  border-radius: 0 0 20px 20px;
+  font-family: montserrat-bold;
+  color: white;
+  font-size: 14px; }
+
+.lien-mot-de-passe-oublie, .lien-creer-compte {
+  text-align: center;
+  color: black;
+  text-decoration: none; }
+  .lien-mot-de-passe-oublie:hover, .lien-creer-compte:hover {
+    color: #5ECEE7; }
+
+.lien-mot-de-passe-oublie {
+  font-family: montserrat-medium-italic;
+  font-size: 13px; }
+
+.lien-creer-compte {
+  font-family: montserrat;
+  font-size: 11px; }
+
+.titre-inscription {
+  color: #5ECEE7;
+  font-family: montserrat-bold;
+  font-size: 24px; }
+
+.titre-parametres {
+  color: black;
+  font-family: montserrat-medium;
+  font-size: 20px; }
+
+.label-parametres {
+  font-family: montserrat;
+  font-size: 18px; }
+
+.paragraphe-accueil {
+  font-family: montserrat;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  top: 280px; }
+  .paragraphe-accueil span {
+    font-family: montserrat-bold;
+    color: #5ECEE7; }
+
+.titre-demande-daide {
+  font-family: montserrat;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.demandepriseencharge {
+  font-family: montserrat;
+  font-size: 14px;
+  margin-top: 20px; }
+
+.arriveedans {
+  font-family: montserrat-bold;
+  font-size: 14px;
+  color: #5ECEE7;
+  margin-bottom: 30px; }
+
+.minutes {
+  font-family: montserrat-bold;
+  font-size: 24px;
+  color: #13677A;
+  /*padding-top: 20px;*/ }
+
+.ligneinteragir {
+  width: 400px;
+  margin-top: 40px;
+  border-color: #5ECEE7; }
+
+.interagiraveclehelper {
+  margin-top: -31px;
+  text-align: center;
+  width: 180px; }
+  .interagiraveclehelper p {
+    font-family: montserrat-bold;
+    color: #5ECEE7;
+    font-size: 14px;
+    background: white; }
+
+.user-name {
+  font-family: montserrat;
+  font-size: 18px;
+  margin-top: 5px; }
+
+.map1 {
+  background: url("../img/map1.png") no-repeat center;
+  background-size: cover;
+  height: 223px;
+  width: 100%; }
+
+.map2 {
+  background: url("../img/map2.png") no-repeat center;
+  background-size: cover;
+  height: 110%;
+  width: 100%; }
+
+.icone-timer {
+  height: 71px;
+  float: left;
+  margin-right: 10px; }
+
+.icones-interactions {
+  width: 360px;
+  height: 120px;
+  margin-top: 40px; }
+
+.cadre-icones-interactions {
+  width: 180px;
+  background: white;
+  height: 100%;
+  text-align: center;
+  float: left; }
+  .cadre-icones-interactions img {
+    height: 64px; }
+  .cadre-icones-interactions p {
+    font-family: montserrat-bold;
+    font-size: 14px;
+    color: #5ECEE7; }
+
+.user-icone {
+  margin-top: 50px;
+  height: 100px; }
+
+.etoiles {
+  text-align: center;
+  margin-top: 50px; }
+  .etoiles svg {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+.image-tchat {
+  margin-top: 30px;
+  width: 380px; }
+
+.cadre-label {
+  width: 20%;
+  float: left; }
+
+.cadre-select {
+  width: calc(40% - 20px);
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #5ECEE7;
+  border-radius: 5px;
+  background: white;
+  font-family: montserrat;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -3px; }
+
+/*# sourceMappingURL=style.css.map */
